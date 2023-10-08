@@ -1,0 +1,110 @@
+@media (max-width: 767px) {
+    .category-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .circ {
+      width: calc(33.33%); /* 3 categories per row with 20px gap */
+    }
+  }
+  .category-container {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center; /* Align items at the center horizontally */
+  }
+  
+  .circ {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .view-more-button {
+    text-align: center;
+  }
+  
+  .view-more-button img,
+  .view-more-button span {
+    display: block; /* Display image and text as block elements */
+    margin: 0; /* Center the image and text horizontally */
+  }
+  
+.category-wrap {
+    padding: 50px 0px;
+}
+.category-wrap .image img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.category-wrap .text h3 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 15px;
+}
+.category-wrap .text h5 {
+    text-align: center;
+}
+.category-wrap .text h5 div{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.category-wrap .text h5 div i {
+    margin-right: 5px;
+    font-size: 16px;
+}
+.category-wrap .second-row {
+    margin: 30px 0px;
+}
+.index-category-text {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Add this to your CSS */
+.hidden-category {
+  display: none;
+}
+
+/* Add this to your CSS */
+.category-container {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr); /* Display three categories per row */
+    gap: 20px; /* Adjust the gap between categories */
+  }
+  
+  .show-more-button {
+    grid-column: span 3; /* Make the "View More" button span three columns */
+    text-align: center;
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+  }
+  
+
+
+  /* Add this to your CategoryWrap.css file */
+.category-container.wide-screen {
+  /* Your styles for wide screens */
+}
+
+.category-container.wide-screen .text-center {
+  /* Center the text for wide screens */
+}
+
+.category-container.wide-screen .d-flex.justify-content-between.flex-wrap .row {
+  /* Align items with space-between for wide screens */
+  justify-content: space-evenly;
+}

@@ -1,0 +1,296 @@
+
+
+@media screen and (max-width: 1440px) {
+
+    .about .video{
+        width: 100%;
+        height: 70vh;
+      }
+    
+      .about{
+        overflow: hidden;
+      }
+    
+    
+      .about .about_main .video video{
+        width: 600px;
+        height: 30rem;
+        position: relative;
+        left: 30px;
+      }
+    
+    }
+    
+    
+    
+    @media screen and (max-width: 1360px){
+    
+    
+      .about .about_main .video video{
+        width: 550px;
+      }
+    
+      .about .about_main .about_text p{
+        width: 600px;
+        text-align: justify;
+        margin-right: 60px;
+        line-height: 35px;
+        font-size: 20px;
+      }
+    
+    }
+    
+    
+    
+    @media screen and (max-width: 1275px){
+    
+    
+      .about .about_main .video video{
+        width: 550px;
+      }
+    
+      .about .about_main .about_text p{
+        width: 550px;
+        text-align: justify;
+        margin-right: 20px;
+      }
+    }
+    
+    
+    
+    @media screen and (max-width: 1190px){
+    
+    .about{
+      margin-top: 5%;
+      height: auto;
+      margin-bottom: 10%;
+    }
+    
+      .about .about_main{
+        flex-direction: column-reverse;
+      }
+    
+      .about .about_main .about_text p{
+        width: 100%;
+        text-align:center;
+        margin-right: 0;
+        padding: 20px;
+      }
+    
+      .about_text h1{
+        font-weight: 650;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    
+      .about .video{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    
+      .about .about_main .video video{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+      }
+    
+    }
+    
+    
+    
+    
+    @media screen and (max-width: 1050px){
+    
+      .about .about_main .video video{
+        width: 100%;
+        height: 100%;
+      }
+    
+    }
+    
+    
+    
+    @media screen and (max-width: 900px){
+    
+      .about_main .video{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    
+      .about .about_main .video video{
+        margin-left: 0%;
+        object-fit: contain;
+        width: 700px;
+        height: fit-content;
+        margin-right: 5%;
+    
+      }
+    
+    }
+    
+    
+    
+    @media screen and (max-width: 840px){
+    
+       .about_main .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+    
+    
+      .about .about_main .video video{
+        margin-left: 0%;
+        margin-right: 10%;
+        object-fit: contain;
+        width: 500px;
+        height: 40rem;
+      }
+      
+    
+      .about .about_main .about_text p{
+        width: 100%;
+        text-align: center;
+        text-align: justify;
+        padding: 0px;
+        font-size: 20px;
+      }
+    
+    }
+    
+    
+    
+    @media screen and (max-width: 570px){
+    
+      .about .about_main .video video{
+        margin-left: 0%;
+        margin-right: 10%;
+        object-fit: contain;
+        width: 400px;
+      }
+    
+      .about .about_main .about_text p{
+        width: 100%;
+        text-align: center;
+        text-align: justify;
+        padding: 0px;
+        font-size: 20px;
+      }
+    
+    }
+    
+    
+    
+    
+    
+    @media screen and (max-width: 500px){
+    
+      .about .about_main .video video{
+        margin-right: 14%;
+        object-fit: contain;
+        width: 400px;
+      }
+    
+    }
+    
+    
+    @media screen and (max-width: 425px){
+    
+      
+        .about .about_main .about_text p{
+          width: 100%;
+          text-align: center;
+          text-align: justify;
+          padding: 0px;
+          font-size: 18px;
+        }
+    
+        .about .about_main .video video{
+        margin-left: 0%;
+        margin-right: 15%;
+        object-fit: contain;
+        width: 100%;
+      }
+      
+      }
+    
+    
+    
+    @media screen and (max-width: 375px){
+    
+    
+      .about .about_main .video video{
+        margin-left: 0%;
+        margin-right: 15%;
+        overflow: hidden;
+    
+      }
+    
+      .about .about_main .about_text p{
+        text-align: justify;
+        font-size: 18px;
+      
+      }
+    
+    }
+    
+    
+    
+    @media screen and (max-width: 320px){
+    
+    
+    
+      .about_main .video {
+        width: 100%;
+        height: 40vh;
+      }
+    
+    
+      .about .about_main .video video{
+        margin-left: 0%;
+        margin-right: 15%;
+        overflow: hidden;
+        width: 450px;
+        height: 400px;
+      }
+    
+      .about .about_main .about_text p{
+        text-align: justify;
+        font-size: 18px;
+      }
+    
+    
+      /* .about .about_main .about_text p{
+        width: 100%;
+        text-align: center;
+        text-align: justify;
+        padding: 0px;
+        font-size: 18px;
+        overflow: hidden;
+    
+      }
+    
+      .about .about_main .image img{
+      margin-left: 0%;
+      margin-right: 20%;
+      width: 350px;
+      height: 350px;
+      overflow: hidden;
+    
+    } */
+    
+    
+    }
+    
+    

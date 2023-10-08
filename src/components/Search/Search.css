@@ -1,0 +1,163 @@
+.suggestions {
+  position: absolute;
+  background-color: #a58686; /* Replace with desired background color */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block; /* Hide the dropdown by default */
+ } 
+
+.suggestions li { 
+   padding: 8px;
+  cursor: pointer; 
+}  
+
+/* Search.css */
+
+/* Base styles for search container */
+/* Search.css */
+
+/* Base styles for search container */
+.search-container {
+display: flex;
+align-items: center;
+background-color: rgb(233, 220, 220);
+border-radius: 2rem;
+margin-bottom: 0.5rem;
+width: 36rem;
+}
+
+/* Input field styles */
+.search-form-control {
+color: white;
+flex-grow: 1;
+border: none;
+background-color: transparent;
+outline: none;
+height: 3rem;
+}
+
+/* Button styles */
+.search-button {
+background-color: #BA0001;
+color: white;
+border: none;
+border-radius: 0 2rem 2rem 0;
+padding: 0.2rem 1rem; /* Adjust padding as needed */
+cursor: pointer;
+}
+
+/* Suggestions dropdown styles */
+
+.dropdown-item {
+color: white;
+padding: 0.2rem 1rem; /* Adjust padding as needed */
+cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+.search-container {
+  max-width: 27rem; /* Adjust for iPad */
+}
+.search-button {
+  background-color: #BA0001;
+  color: white;
+  border: none;
+  border-radius: 0 2rem 2rem 0;
+  padding: 0.2rem 1rem; /* Adjust padding as needed */
+  cursor: pointer;
+}
+}
+
+@media screen and (max-width: 500px) {
+.search-container {
+  max-width: 8rem; /* Adjust for mobile */
+}
+.search-button {
+  background-color: #BA0001;
+  color: white;
+  border: none;
+  border-radius: 0 2rem 2rem 0;
+  padding: 0.2rem 1rem; /* Adjust padding as needed */
+  cursor: pointer;
+  
+}
+}
+
+
+
+
+
+/* 
+.input-box {
+position: relative;
+height: 45px;
+max-width: 900px;
+width: 38%;
+background: #fff;
+margin: 0 20px;
+border-bottom-left-radius: 8px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.input-box i,
+.input-box .button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}
+.input-box i {
+left: 20px;
+font-size: 30px;
+color: #707070;
+}
+.input-box input {
+height: 100%;
+width: 100%;
+outline: none;
+font-size: 18px;
+font-weight: 400;
+border: none;
+padding: 0 155px 0 65px;
+background-color: transparent;
+}
+.input-box .button {
+height: 45px;
+width: 18%;
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+border: none;
+border-bottom-right-radius: 8px;
+background-color: #BA0001;
+cursor: pointer;
+}
+
+
+.input-box .button:active {
+transform: translateY(-50%) scale(0.98);
+}
+
+
+/* Search Bar Responsive */
+/* 
+@media screen and (max-width: 500px) {
+.input-box {
+  height: 66px;
+  margin: 0 8px;
+}
+.input-box i {
+  left: 12px;
+  font-size: 25px;
+}
+.input-box input {
+  padding: 0 112px 0 50px;
+}
+.input-box .button {
+  right: 12px;
+  font-size: 14px;
+  padding: 8px 18px;
+}
+} */
+
+ /* */

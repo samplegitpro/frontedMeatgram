@@ -1,0 +1,45 @@
+
+.main-container-privacy{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-div-privacy{
+    border: 1px solid black;
+    width: 100%;
+    height: 16vh;
+    background-color: black;
+
+}
+.logo-privacy-photo{
+   
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 2px;
+
+}
+.headind-privacy h1{
+    margin-top: 30px;
+    color: #ba0001;
+}
+
+.privacy-footer{
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+
+}
+.privacy-footer p{
+    font-size: 16px;
+    color: #fff;
+
+}

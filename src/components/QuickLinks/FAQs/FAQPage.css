@@ -1,0 +1,98 @@
+.main-container-faqs {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headind-faqs h1 {
+  margin-top: 30px;
+  color: #ba0001;
+}
+
+.quetion-faqs {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: auto; /* Add this line to make the questions scrollable */
+  max-height: 60vh; /* Add this line to set a maximum height */
+}
+
+.faq-container {
+  width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.faq__content p {
+  color: #ba0001;
+}
+
+summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+/* Add this CSS to your FAQPage.css */
+
+/* Change the color of the scrollbar thumb */
+.quetion-faqs::-webkit-scrollbar-thumb {
+  background-color: #ba0001;
+}
+
+/* Change the color of the scrollbar track */
+.quetion-faqs::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Optionally, you can style the scrollbar track with a border */
+.quetion-faqs::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as needed */
+}
+
+/* You can also style the scrollbar corner (optional) */
+.quetion-faqs::-webkit-scrollbar-corner {
+  background-color: transparent;
+}

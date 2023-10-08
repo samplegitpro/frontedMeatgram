@@ -1,0 +1,173 @@
+
+
+.contact-main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f6f6;
+    position: relative;
+  }
+  
+  
+  .contact-main-container::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #BA0001;
+    clip-path: polygon(86% 0, 100% 0, 100% 100%, 60% 100%);
+  }
+  
+  
+  .contact-container {
+    z-index: 12;
+    max-width: 1050px;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    margin: 0 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contact-container .contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+  }
+  
+  .contact-content .image-box {
+    max-width: 55%;
+  }
+  .contact-content .image-box img {
+    width: 100%;
+  }
+  .contact-content .topic {
+    font-size: 22px;
+    font-weight: 500;
+    color: #BA0001;
+  }
+  .contact-content form {
+    width: 40%;
+    margin-right: 30px;
+  }
+  .contact-content .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 16px 0;
+    position: relative;
+  }
+  .contact-content .input-box input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    padding: 0 16px;
+    background: #fae9fb;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  .contact-content .input-box input:focus,
+  .contact-content .input-box input:valid {
+    border-color: #BA0001;
+    background-color: #fff;
+  }
+  
+  .contact-content .input-box label {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    color: #636c72;
+    font-size: 15px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+  }
+  .contact-content .input-box input:focus ~ label,
+  .contact-content .input-box input:valid ~ label {
+    top: 0;
+    left: 12px;
+    display: 14px;
+    color: #BA0001;
+    background: #fff;
+  }
+  
+  .contact-content .message-box {
+    min-height: 100px;
+    position: relative;
+  }
+  
+  .contact-content .message-box textarea {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    background: #fae9fb;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    outline: none;
+    padding: 5px 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-content .message-box textarea:focus {
+    border-color: #BA0001;
+    background-color: #fff;
+  }
+  .contact-content .message-box label {
+    position: absolute;
+    font-size: 16px;
+    color: #636c72;
+    left: 18px;
+    top: 6px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .contact-content .message-box textarea:focus ~ label {
+    left: 12px;
+    top: -10px;
+    color: #BA0001;
+    font-size: 14px;
+    background: #fff;
+  }
+  
+  
+  .contact-content .input-box input[type="submit"] {
+    color: #fff;
+    background: #BA0001;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  .contact-content .input-box input[type="submit"]:hover {
+    background-color: #BA0001;
+  }
+  
+  
+  @media (max-width: 1000px) {
+    .contact-content .image-box {
+      max-width: 70%;
+    }
+    .contact-content {
+      padding: 10px 0;
+    }
+  }
+  @media (max-width: 900px) {
+    .contact-content .image-box {
+      display: none;
+    }
+    .contact-content form {
+      width: 100%;
+      margin-left: 30px;
+    }
+  }
+  

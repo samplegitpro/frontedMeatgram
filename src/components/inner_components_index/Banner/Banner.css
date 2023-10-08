@@ -1,0 +1,5 @@
+.homepage-slider-image {
+  object-fit: cover; /* This will make the image cover the entire container while maintaining its aspect ratio */
+  width: 100%; /* Set the width to 100% to fill the container horizontally */
+  height: 100%; /* Set the height to 100% to fill the container vertically */
+}

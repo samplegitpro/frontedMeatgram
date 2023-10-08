@@ -1,0 +1,10 @@
+/* Custom CSS to style the Carousel next and previous buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set the background color to black */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: white; /* Set the color of the icons to white */
+}

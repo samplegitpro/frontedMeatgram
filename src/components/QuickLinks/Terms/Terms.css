@@ -1,0 +1,56 @@
+
+.main-container-terms-condition{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.logo-div-term-condition{
+    border: 1px solid black;
+    width: 100%;
+    height: 16vh;
+    background-color: black;
+
+}
+.logo-term-photo{
+   
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 2px;
+
+}
+.headind-term-condition h1{
+    margin-top: 30px;
+    color: #ba0001;
+}
+.text-point-term-condition{
+   
+    width: 55%;
+    height: 50vh;
+    margin-top: 70px;
+
+}
+.text-point-term-condition p{
+  line-height: 42px;
+  font-size: 22px;
+}
+
+.term-condition-footer{
+  
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.term-condition-footer p{
+    font-size: 16px;
+    color: #fff;
+
+}

@@ -1,0 +1,5 @@
+.testimonial-container .carousel-control-prev,
+.testimonial-container .carousel-control-next {
+ display: none;
+    /* margin-top: 20px; You can adjust this value as needed */
+}

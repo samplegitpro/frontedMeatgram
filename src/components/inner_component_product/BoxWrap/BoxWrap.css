@@ -1,0 +1,39 @@
+.box-wrap {
+    box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.58);
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 10px;
+  }
+  
+  .box-wrap .first-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0px;
+  }
+  
+  .box-wrap .first-div .list1 {
+    width: 100%; /* Make it full width on small screens */
+  }
+  
+  .box-wrap .first-div .list1 span {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+  }
+  
+  .box-wrap .first-div .list1 span img {
+    max-width: 100%;
+    margin-right: 15px;
+  }
+  
+  .box-wrap.selected {
+    /* Add your selected styles here */
+    border: 2px solid blue; /* For example, add a blue border */
+  }
+  

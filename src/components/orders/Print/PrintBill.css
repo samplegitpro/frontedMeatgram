@@ -1,0 +1,16 @@
+/* printbill.css */
+
+.header-print {
+    margin-bottom: 10px;
+    line-height: 1; /* Set the line height between every line of the header to 0 */
+  }
+  .header-print p {
+
+    line-height: 30; /* Set the line height between every line of the header to 0 */
+  }
+  
+@media print {
+  .print-logo,.print-logo*{
+    display: block !important;
+  }
+}

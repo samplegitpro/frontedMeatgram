@@ -1,0 +1,25 @@
+/* Custom CSS for adjusting Carousel width */
+@media (min-width: 992px) {
+    .carousel {
+      width: 300%; /* Set the desired width for desktop view */
+    }
+  }
+  @media (min-width: 576px) {
+    .carousel {
+      width: 200%; /* Set the desired width for desktop view */
+    }
+  }
+  .carousel {
+      width: 100%; /* Set the desired width for desktop view */
+    }
+  /* Custom CSS to style the Carousel next and previous buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set the background color to black */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    
+  color: white; /* Set the color of the icons to white */
+}
